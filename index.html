@@ -10,7 +10,7 @@
   <!-- I would recommend this approach to adding the CSS, rather than writing "inline" CSS like <body style="background-color: #6667A3"> -->
   <style>
     body {
-      background-color: #6667A3;
+      background-color: #6259A7;
     }
     img {
       margin
@@ -21,19 +21,97 @@
 <body>
   <h1> Olivia Seymour and Josie Blatt Final Project </h1>
       <h2> Music 270 </h2>
+      <style>
+        h1 {display: block;
+        margin-left: 400;
+        margin-right: 400;
+        width: 70%;
+        color: white;
+        }
+        </style>
+      <style>
+        h2 {display: block;
+        margin-left: 650;
+        margin-right: 800;
+        width: 50%;
+        color: white;
+        }
+        </style>
 
 <img src="images/1989pic.jpg"
-width="500px" height="500px">
+width="650px" height="650px" class="center">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
 
-<audio controls>
-  <source src="audio/ikp.mp3" type="audio/mp3">
-  </audio>
-<audio controls>
-  <source src="audio/clean-final.mp3" type="audio/mp3">
-    </audio>
-<audio controls>
-  <source src="audio/blank-space.mp3" type="audio/mp3">
-    </audio>
-<audio controls>
-  <source src="audio/wildest-dreams.mp3" type="audio/mp3">
-    </audio>
+    <head>
+    <style>
+         html {
+           font-family: sans-serif;
+         }
+
+         body {
+           margin: 0;
+         }
+
+         header {
+           background-color: #ED8CC0;
+           height: 100px;
+         }
+
+         h3 {
+           text-align: center;
+           color: white;
+           line-height: 100px;
+           margin: 0;
+         }
+
+         article {
+           color: white;
+           padding: 10px;
+           margin: 10px;
+           background-color: #37C6FF;
+         }
+         </style>
+</head>
+<body>
+<header>
+  <h3>1989 Cover Album</h3>
+</header>
+
+<section>
+  <article>
+    <h4>Josie's Tracks:</h4>
+
+    <p>I Know Places </p>
+    <p> <audio controls>
+      <source src="audio/ikp.mp3" type="audio/mp3">
+      </audio> </p>
+
+    <p>Clean (feat. Olivia)</p>
+    <p><audio controls>
+        <source src="audio/clean-final.mp3" type="audio/mp3">
+          </audio> </p>
+  </article>
+
+  <article>
+    <h4>Olivia's Tracks:</h4>
+
+    <p>Blank Space</p>
+      <p> <audio controls>
+      <source src="audio/blank-space.mp3" type="audio/mp3">
+        </audio> </p>
+    <p>Wildest Dreams (feat. Josie)</p>
+    <p><audio controls>
+      <source src="audio/wildest-dreams.mp3" type="audio/mp3">
+        </audio> </p>
+  </article>
+
+</section>
+</body>
+</html>
